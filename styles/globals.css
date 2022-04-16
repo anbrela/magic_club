@@ -26,24 +26,17 @@ a {
 }
 
 
-/*.noselect {*/
-/*  -webkit-touch-callout: none; !* iOS Safari *!*/
-/*  -webkit-user-select: none; !* Safari *!*/
-/*  -khtml-user-select: none; !* Konqueror HTML *!*/
-/*  -moz-user-select: none; !* Old versions of Firefox *!*/
-/*  -ms-user-select: none; !* Internet Explorer/Edge *!*/
-/*  user-select: none; !* Non-prefixed version, currently*/
-/*                                  supported by Chrome, Edge, Opera and Firefox *!*/
-/*}*/
-
-
-.noselect::selection, .noselect *::selection {
-  background-color: Transparent;
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
-.noselect { /* Sometimes I add this too. */
-  cursor: default;
-}
+
 
 .background {
   background-image: url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
