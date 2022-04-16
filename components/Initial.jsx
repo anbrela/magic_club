@@ -30,7 +30,7 @@ export const Initial = () => {
 
       <p className="text-white text-gray-300 text-sm">
         Está lucha lo es <span className="noselect">todo. </span> Es lo único
-        que <div className="effect">cuenta.</div>
+        que cuenta.
       </p>
 
       <p className="text-white text-gray-300 text-sm">Att. Ms Ferret</p>
